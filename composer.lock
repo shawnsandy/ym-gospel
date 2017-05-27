@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9ec4f56d30390475836f8801616837cc",
-    "content-hash": "40e76146bfc422a21283ffed5e3f50b5",
+    "hash": "689bb01e1b12fa9cc49bcbdaa50aee9e",
+    "content-hash": "2918df5056e4ebc097f786e104c5ba45",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -270,6 +270,53 @@
                 "laravel"
             ],
             "time": "2017-05-07 05:39:47"
+        },
+        {
+            "name": "davestewart/sketchpad",
+            "version": "v1.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davestewart/laravel-sketchpad.git",
+                "reference": "fbc9a299e9242a775f59410d44e224b88be54d6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davestewart/laravel-sketchpad/zipball/fbc9a299e9242a775f59410d44e224b88be54d6e",
+                "reference": "fbc9a299e9242a775f59410d44e224b88be54d6e",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^5.0",
+                "php": ">=5.3.0",
+                "symfony/filesystem": "^3.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "davestewart\\sketchpad\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Stewart",
+                    "homepage": "http://davestewart.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An innovative front-end environment for interactive Laravel development",
+            "homepage": "https://github.com/davestewart/laravel-sketchpad",
+            "keywords": [
+                "Tinker",
+                "laravel",
+                "playground",
+                "testing",
+                "tools"
+            ],
+            "time": "2017-05-20 18:58:04"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3260,6 +3307,55 @@
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
             "time": "2017-05-01 14:58:48"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v3.2.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/filesystem.git",
+                "reference": "040651db13cf061827a460cc10f6e36a445c45b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/040651db13cf061827a460cc10f6e36a445c45b4",
+                "reference": "040651db13cf061827a460cc10f6e36a445c45b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-04-12 14:13:17"
         },
         {
             "name": "symfony/finder",
