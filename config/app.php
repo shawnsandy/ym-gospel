@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Me You and The Gospel'),
 
     /*
     |--------------------------------------------------------------------------
@@ -234,8 +234,10 @@ return [
 
         /// ------------------------------------
 
+        "Dash" => ShawnSandy\Dash\DashFacade::class,
         'Extras' => \ShawnSandy\Extras\ExtrasFacade::class,
         'Gmap' => \ShawnSandy\Extras\Apps\Maps\MapsFacade::class,
+        "DashForms" => ShawnSandy\Dash\Builder\GenerateFormFieldsFacade::class,
 
     ],
 

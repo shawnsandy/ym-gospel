@@ -4,11 +4,11 @@ return [
 
     'login_env' => 'production',
 
-    'page_title' => 'Laravel PageKit ',
+    'page_title' => 'Me You and The Gospel',
 
-    'page_slug' => 'Quick start pages for Laravel.',
+    'page_slug' => 'God is love',
 
-    'company_name' => 'ACME INC',
+    'company_name' => 'God Is Love',
 
     'contact_number' => '000 000 0000',
 
