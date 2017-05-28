@@ -177,6 +177,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        // -----------------------------------------
+        ShawnSandy\Dash\DashServicesProvider::class,
+        ShawnSandy\Extras\ExtrasServicesProvider::class,
+        ShawnSandy\PageKit\PageKitServiceProvider::class,
+        Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
+
     ],
 
     /*
@@ -225,6 +231,11 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        /// ------------------------------------
+
+        'Extras' => \ShawnSandy\Extras\ExtrasFacade::class,
+        'Gmap' => \ShawnSandy\Extras\Apps\Maps\MapsFacade::class,
 
     ],
 
