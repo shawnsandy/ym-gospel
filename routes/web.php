@@ -12,7 +12,7 @@
     */
 
     Route::get('/', function () {
-        return view('page::index');
+        return view('theme.page.index');
     });
 
     Route::group(['prefix' => 'admin'], function () {
