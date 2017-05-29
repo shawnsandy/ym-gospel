@@ -1,5 +1,5 @@
 <div class="cover-fold  bg-5">
-    @include('page::shared.nav')
+    @include($pageTheme.'shared.nav')
     <header class="{{ $class_name or " main " }}" data-aos="fade-up">
         <section class="cover">
             <div class="layout-table">

@@ -1,0 +1,25 @@
+
+// Variables
+@import "variables";
+
+.stage {
+
+  height: 60vh;
+
+  .cover {
+    height: 60vh;
+  }
+
+  .landing {
+    background-color: #fff;
+  }
+
+}
+.stage-featured {
+  height: 40vh;
+  background-color: #1a1a1a;
+  .col-md-4 {
+    height: 100%;
+  }
+
+}

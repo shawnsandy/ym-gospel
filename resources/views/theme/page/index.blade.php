@@ -2,8 +2,6 @@
 @section('title', 'Laravel Pages')
 @section('body')
 
-
-
 @include($pageTheme.'shared.cover-fold', ["class_name" => "landing bg-5"])
 
 <section class="sub-header text-center">

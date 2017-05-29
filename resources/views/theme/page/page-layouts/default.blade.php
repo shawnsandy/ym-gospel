@@ -17,6 +17,7 @@
     @stack('beforeStyles')
     <link rel="stylesheet" href="/css/pagekit/app.css">
     <link rel="stylesheet" href="/css/pagekit/page.css">
+    <link rel="stylesheet" href="/css/theme.css">
     <link rel="stylesheet" href="/assets/aos/dist/aos.css"/>
     <link href="/css/pagekit/fonts/material-icons/style.css" rel="stylesheet">
     <link href="/css/pagekit/fonts/social/style.css" rel="stylesheet">
