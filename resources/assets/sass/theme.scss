@@ -1,10 +1,15 @@
-
 // Variables
 @import "variables";
 
+@import "node_modules/bourbon/app/assets/stylesheets/_bourbon.scss";
+
+body, p {
+  font-family: 'Open Sans', sans-serif
+}
+
 .stage {
 
-  height: 60vh;
+  height: 55vh;
 
   .cover {
     height: 60vh;
@@ -15,11 +20,62 @@
   }
 
 }
+
 .stage-featured {
-  height: 40vh;
-  background-color: #1a1a1a;
-  .col-md-4 {
+  height: 45vh;
+  background-color: #0C0C0C;
+  .col-md-6 {
     height: 100%;
+    padding: 0;
+    > div {
+      padding: 30px;
+      background-color: rgba(0, 0, 0, 0.9);
+      margin: 0;
+      border: none;
+    }
   }
 
+  .layout-row {
+    vertical-align: bottom;
+    text-align: left;
+
+  }
+
+}
+
+.card {
+
+  height: 100%;
+  color: lightgray;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .card-cover {
+    display: block;
+    height: 40%;
+  }
+
+  a {
+    color: lightgray;
+
+    &:hover {
+      color: #fff;
+    }
+
+  }
+
+  .card-title , .card-description {
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .card-description {
+    font-size: 21px;
+
+  }
+
+}
+
+.oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 79px;
 }

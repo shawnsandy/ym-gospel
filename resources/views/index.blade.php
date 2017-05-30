@@ -22,9 +22,17 @@
 
     </div>
     <div class="stage-featured clearfix">
-        <div class="col-md-4">one</div>
-        <div class="col-md-4">two</div>
-        <div class="col-md-4">three</div>
+
+        <div class="col-md-6 card" style="background-image: url(/img/love-in-sand@0,75x.jpg);">
+            @component("components.card", ['title' => "The Gospel?"])
+                Globally restore proactive e-services and cost effective relationships. Seamlessly coordinate collaborative platforms.
+            @endcomponent
+        </div>
+        <div class="col-md-6 card" style="background-image: url(/img/love-in-sand@0,75x.jpg);">
+            @component("components.card", ['title' => 'You Me and the Gospel'])
+                Globally restore proactive e-services and cost effective relationships. Seamlessly coordinate collaborative platforms.
+            @endcomponent
+        </div>
 
     </div>
 
