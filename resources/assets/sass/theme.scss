@@ -9,7 +9,7 @@ body, p {
 
 .stage {
 
-  height: 55vh;
+  height: 60vh;
 
   .cover {
     height: 60vh;
@@ -22,16 +22,18 @@ body, p {
 }
 
 .stage-featured {
-  height: 45vh;
+  height: 40vh;
   background-color: #0C0C0C;
-  .col-md-6 {
+  .card {
     height: 100%;
     padding: 0;
     > div {
       padding: 30px;
-      background-color: rgba(0, 0, 0, 0.9);
+      //background-color: rgba(0, 0, 0, 0.9);
+      @include linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
       margin: 0;
       border: none;
+      height: 100%;
     }
   }
 
@@ -78,4 +80,8 @@ body, p {
 .oswald {
   font-family: 'Oswald', sans-serif;
   font-size: 79px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.9);
 }

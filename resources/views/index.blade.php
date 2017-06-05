@@ -21,14 +21,14 @@
         </header>
 
     </div>
-    <div class="stage-featured clearfix">
+    <div class="stage-featured clearfix" layout="row">
 
-        <div class="col-md-6 card" style="background-image: url(/img/love-in-sand@0,75x.jpg);">
-            @component("components.card", ['title' => "The Gospel?"])
+        <div class="card" style="background-image: url(/img/love-in-sand@0,75x.jpg);">
+            @component("components.card", ['title' => "What Is The Gospel?"])
                 Globally restore proactive e-services and cost effective relationships. Seamlessly coordinate collaborative platforms.
             @endcomponent
         </div>
-        <div class="col-md-6 card" style="background-image: url(/img/love-in-sand@0,75x.jpg);">
+        <div class="card" style="background-image: url(/img/love-in-sand@0,75x.jpg);">
             @component("components.card", ['title' => 'You Me and the Gospel'])
                 Globally restore proactive e-services and cost effective relationships. Seamlessly coordinate collaborative platforms.
             @endcomponent
