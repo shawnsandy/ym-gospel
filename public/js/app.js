@@ -801,7 +801,7 @@ var app = new Vue({
 /* 10 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: \r\n@import \"node_modules/bourbon/app/assets/stylesheets/_bourbon.scss\";\r\n^\r\n      File to import not found or unreadable: node_modules/bourbon/app/assets/stylesheets/_bourbon.scss.\nParent style sheet: stdin\r\n      in D:\\Apps\\gospel\\resources\\assets\\sass\\theme.scss (line 4, column 1)\n    at runLoaders (D:\\Apps\\gospel\\node_modules\\webpack\\lib\\NormalModule.js:192:19)\n    at D:\\Apps\\gospel\\node_modules\\loader-runner\\lib\\LoaderRunner.js:364:11\n    at D:\\Apps\\gospel\\node_modules\\loader-runner\\lib\\LoaderRunner.js:230:18\n    at context.callback (D:\\Apps\\gospel\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at Object.asyncSassJobQueue.push [as callback] (D:\\Apps\\gospel\\node_modules\\sass-loader\\lib\\loader.js:57:13)\n    at Object.<anonymous> (D:\\Apps\\gospel\\node_modules\\async\\dist\\async.js:2243:31)\n    at Object.callback (D:\\Apps\\gospel\\node_modules\\async\\dist\\async.js:906:16)\n    at options.error (D:\\Apps\\gospel\\node_modules\\node-sass\\lib\\index.js:294:32)");
 
 /***/ }),
 /* 11 */

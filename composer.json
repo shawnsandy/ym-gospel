@@ -11,7 +11,7 @@
         "laravel/tinker": "~1.0",
         "mews/purifier": "^2.0",
         "shawnsandy/dash": "dev-master",
-        "shawnsandy/extras": "^0.1.32",
+        "shawnsandy/extras": "dev-master",
         "shawnsandy/pagekit": "dev-master"
     },
     "require-dev": {
