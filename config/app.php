@@ -180,7 +180,9 @@ return [
         // -----------------------------------------
         ShawnSandy\Dash\DashServicesProvider::class,
         ShawnSandy\Extras\ExtrasServicesProvider::class,
+        ShawnSandy\DashElements\DashElementsServicesProvider::class,
         ShawnSandy\PageKit\PageKitServiceProvider::class,
+        ShawnSandy\Bluelines\BluelinesServicesProvider::class,
         Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
 
     ],
@@ -238,6 +240,8 @@ return [
         'Extras' => \ShawnSandy\Extras\ExtrasFacade::class,
         'Gmap' => \ShawnSandy\Extras\Apps\Maps\MapsFacade::class,
         "DashForms" => ShawnSandy\Dash\Builder\GenerateFormFieldsFacade::class,
+        "DashElements" => ShawnSandy\DashElements\DashElementsFacade::class,
+        "Blue" => ShawnSandy\Bluelines\BluelinesFacade::class,
 
     ],
 

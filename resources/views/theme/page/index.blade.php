@@ -1,5 +1,5 @@
 @extends($pageTheme.'page-layouts.default')
-@section('title', 'Laravel Pages')
+@section('title', 'Yot me and the Gospel')
 @section('body')
 
 @include($pageTheme.'shared.cover-fold', ["class_name" => "landing bg-5"])
