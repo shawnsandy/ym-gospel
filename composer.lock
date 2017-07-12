@@ -3035,12 +3035,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/bluelines.git",
-                "reference": "df7b3e2a744c3392158753dc06b17c9eebf782e6"
+                "reference": "8eebf6022ad2478d45105f5cdd12f2e7a69bd749"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/bluelines/zipball/df7b3e2a744c3392158753dc06b17c9eebf782e6",
-                "reference": "df7b3e2a744c3392158753dc06b17c9eebf782e6",
+                "url": "https://api.github.com/repos/shawnsandy/bluelines/zipball/8eebf6022ad2478d45105f5cdd12f2e7a69bd749",
+                "reference": "8eebf6022ad2478d45105f5cdd12f2e7a69bd749",
                 "shasum": ""
             },
             "require": {
@@ -3101,7 +3101,7 @@
                 "source": "https://github.com/shawnsandy/bluelines/tree/master",
                 "issues": "https://github.com/shawnsandy/bluelines/issues"
             },
-            "time": "2017-06-22 11:57:23"
+            "time": "2017-07-11 19:01:45"
         },
         {
             "name": "shawnsandy/dash",
@@ -3109,19 +3109,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/dash.git",
-                "reference": "f1f1555ac900d6d4f2cc30a7112b61adda7d6480"
+                "reference": "247a8d9609270c4f97f39483eab832ed327b4d49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/dash/zipball/f1f1555ac900d6d4f2cc30a7112b61adda7d6480",
-                "reference": "f1f1555ac900d6d4f2cc30a7112b61adda7d6480",
+                "url": "https://api.github.com/repos/shawnsandy/dash/zipball/247a8d9609270c4f97f39483eab832ed327b4d49",
+                "reference": "247a8d9609270c4f97f39483eab832ed327b4d49",
                 "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "~5.3|~5.4",
                 "illuminate/http": "~5.3|~5.4",
                 "illuminate/support": "~5.3|~5.4",
-                "php": "~5.6|~7.0"
+                "php": "~5.6|~7.0",
+                "shawnsandy/bluelines": "dev-master",
+                "shawnsandy/dashelements": "dev-master",
+                "shawnsandy/extras": "dev-master"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.0||~5.0",
@@ -3156,7 +3159,7 @@
                 "dash",
                 "shawnsandy"
             ],
-            "time": "2017-06-20 23:15:21"
+            "time": "2017-07-12 00:02:49"
         },
         {
             "name": "shawnsandy/dashelements",
@@ -3164,12 +3167,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/dash-elements.git",
-                "reference": "1d90ca8885d7dba10a987b6ca5f3627de87662d5"
+                "reference": "903ee75acad5451bafbc9bfda8294c98c20ec854"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/dash-elements/zipball/1d90ca8885d7dba10a987b6ca5f3627de87662d5",
-                "reference": "1d90ca8885d7dba10a987b6ca5f3627de87662d5",
+                "url": "https://api.github.com/repos/shawnsandy/dash-elements/zipball/903ee75acad5451bafbc9bfda8294c98c20ec854",
+                "reference": "903ee75acad5451bafbc9bfda8294c98c20ec854",
                 "shasum": ""
             },
             "require": {
@@ -3231,7 +3234,7 @@
                 "source": "https://github.com/shawnsandy/dash-elements/tree/master",
                 "issues": "https://github.com/shawnsandy/dash-elements/issues"
             },
-            "time": "2017-07-09 15:23:41"
+            "time": "2017-07-11 19:52:34"
         },
         {
             "name": "shawnsandy/extras",
@@ -3239,12 +3242,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/extras.git",
-                "reference": "1bbb2043442a95eb0c7553ee2c74548d31451f1d"
+                "reference": "22f7cd252a99224f0e4855536f192d9e96d9d04d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/extras/zipball/1bbb2043442a95eb0c7553ee2c74548d31451f1d",
-                "reference": "1bbb2043442a95eb0c7553ee2c74548d31451f1d",
+                "url": "https://api.github.com/repos/shawnsandy/extras/zipball/22f7cd252a99224f0e4855536f192d9e96d9d04d",
+                "reference": "22f7cd252a99224f0e4855536f192d9e96d9d04d",
                 "shasum": ""
             },
             "require": {
@@ -3306,7 +3309,7 @@
                 "Extras",
                 "shawnsandy"
             ],
-            "time": "2017-06-30 16:43:25"
+            "time": "2017-07-11 18:59:10"
         },
         {
             "name": "shawnsandy/pagekit",

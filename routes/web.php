@@ -19,6 +19,12 @@
         Dash::routes();
     });
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+    Route::group(["prefix" => "bluelines"], function () {
+        Blue::routes();
+    });
+
+    Auth::routes();
+
+    Route::get('/home', 'HomeController@index')->name('home');
+
