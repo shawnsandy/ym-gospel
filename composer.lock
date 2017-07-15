@@ -3035,12 +3035,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/bluelines.git",
-                "reference": "8eebf6022ad2478d45105f5cdd12f2e7a69bd749"
+                "reference": "71c8d077e1f9675d8fd4aee6b65931a8424f9a4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/bluelines/zipball/8eebf6022ad2478d45105f5cdd12f2e7a69bd749",
-                "reference": "8eebf6022ad2478d45105f5cdd12f2e7a69bd749",
+                "url": "https://api.github.com/repos/shawnsandy/bluelines/zipball/71c8d077e1f9675d8fd4aee6b65931a8424f9a4e",
+                "reference": "71c8d077e1f9675d8fd4aee6b65931a8424f9a4e",
                 "shasum": ""
             },
             "require": {
@@ -3101,7 +3101,7 @@
                 "source": "https://github.com/shawnsandy/bluelines/tree/master",
                 "issues": "https://github.com/shawnsandy/bluelines/issues"
             },
-            "time": "2017-07-11 19:01:45"
+            "time": "2017-07-15 11:38:38"
         },
         {
             "name": "shawnsandy/dash",
@@ -3109,12 +3109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/dash.git",
-                "reference": "247a8d9609270c4f97f39483eab832ed327b4d49"
+                "reference": "23c7c98a1a2883e05e62312d7c75aca0859f7070"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/dash/zipball/247a8d9609270c4f97f39483eab832ed327b4d49",
-                "reference": "247a8d9609270c4f97f39483eab832ed327b4d49",
+                "url": "https://api.github.com/repos/shawnsandy/dash/zipball/23c7c98a1a2883e05e62312d7c75aca0859f7070",
+                "reference": "23c7c98a1a2883e05e62312d7c75aca0859f7070",
                 "shasum": ""
             },
             "require": {
@@ -3159,7 +3159,7 @@
                 "dash",
                 "shawnsandy"
             ],
-            "time": "2017-07-12 00:02:49"
+            "time": "2017-07-14 16:18:25"
         },
         {
             "name": "shawnsandy/dashelements",
@@ -3242,12 +3242,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/extras.git",
-                "reference": "22f7cd252a99224f0e4855536f192d9e96d9d04d"
+                "reference": "0a9821a7262d224ad007a6b46fc35c54c0d103a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/extras/zipball/22f7cd252a99224f0e4855536f192d9e96d9d04d",
-                "reference": "22f7cd252a99224f0e4855536f192d9e96d9d04d",
+                "url": "https://api.github.com/repos/shawnsandy/extras/zipball/0a9821a7262d224ad007a6b46fc35c54c0d103a5",
+                "reference": "0a9821a7262d224ad007a6b46fc35c54c0d103a5",
                 "shasum": ""
             },
             "require": {
@@ -3272,6 +3272,7 @@
                 "mews/purifier": "^2.0",
                 "php": "~5.6|~7.0",
                 "rap2hpoutre/laravel-log-viewer": "^0.9.0",
+                "spatie/laravel-collection-macros": "^2.3",
                 "thujohn/twitter": "^2.2",
                 "zondicons/blade-bridge": "^0.1.3"
             },
@@ -3309,7 +3310,7 @@
                 "Extras",
                 "shawnsandy"
             ],
-            "time": "2017-07-11 18:59:10"
+            "time": "2017-07-14 15:32:55"
         },
         {
             "name": "shawnsandy/pagekit",
@@ -3366,6 +3367,72 @@
                 "shawnsandy"
             ],
             "time": "2017-06-22 11:43:59"
+        },
+        {
+            "name": "spatie/laravel-collection-macros",
+            "version": "2.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-collection-macros.git",
+                "reference": "2dea71e3373377ab53f2f38145e6dea30563f31e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-collection-macros/zipball/2dea71e3373377ab53f2f38145e6dea30563f31e",
+                "reference": "2dea71e3373377ab53f2f38145e6dea30563f31e",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/pagination": "~5.4.0",
+                "illuminate/support": "~5.4.0",
+                "illuminate/validation": "~5.4.0",
+                "illuminate/view": "~5.4.0",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.5",
+                "orchestra/database": "~3.4.0@dev",
+                "orchestra/testbench": "~3.4.0@dev",
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\CollectionMacros\\CollectionMacroServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\CollectionMacros\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://github.com/freekmurze",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://github.com/sebastiandedeyne",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A set of useful Laravel collection macros",
+            "homepage": "https://github.com/spatie/laravel-collection-macros",
+            "keywords": [
+                "laravel-collection-macros",
+                "spatie"
+            ],
+            "time": "2017-07-11 08:43:42"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4809,22 +4876,22 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "3.1.1",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "8331b5efe816ae05461b7ca1e721c01b46bafb3e"
+                "reference": "46f7e8bb075036c92695b15a1ddb6971c751e585"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/8331b5efe816ae05461b7ca1e721c01b46bafb3e",
-                "reference": "8331b5efe816ae05461b7ca1e721c01b46bafb3e",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/46f7e8bb075036c92695b15a1ddb6971c751e585",
+                "reference": "46f7e8bb075036c92695b15a1ddb6971c751e585",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5",
                 "phpdocumentor/reflection-common": "^1.0@dev",
-                "phpdocumentor/type-resolver": "^0.2.0",
+                "phpdocumentor/type-resolver": "^0.4.0",
                 "webmozart/assert": "^1.0"
             },
             "require-dev": {
@@ -4850,24 +4917,24 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2016-09-30 07:12:33"
+            "time": "2017-07-15 11:38:20"
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "0.2.1",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "e224fb2ea2fba6d3ad6fdaef91cd09a172155ccb"
+                "reference": "9c977708995954784726e25d0cd1dddf4e65b0f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/e224fb2ea2fba6d3ad6fdaef91cd09a172155ccb",
-                "reference": "e224fb2ea2fba6d3ad6fdaef91cd09a172155ccb",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/9c977708995954784726e25d0cd1dddf4e65b0f7",
+                "reference": "9c977708995954784726e25d0cd1dddf4e65b0f7",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5",
+                "php": "^5.5 || ^7.0",
                 "phpdocumentor/reflection-common": "^1.0"
             },
             "require-dev": {
@@ -4897,7 +4964,7 @@
                     "email": "me@mikevanriel.com"
                 }
             ],
-            "time": "2016-11-25 06:54:22"
+            "time": "2017-07-14 14:27:02"
         },
         {
             "name": "phpspec/prophecy",
