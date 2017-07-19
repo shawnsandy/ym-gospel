@@ -135,7 +135,7 @@ html, body {
     background-color: #ffffff;
 }
 
-.nav-text {
+.toggled .nav-text {
     display: none;
 }
 @media(min-width:768px) {
