@@ -1,6 +1,6 @@
 @extends($pageTheme.'page-layouts.default')
 
-@section("Title", "Me You and The Gospel")
+@section("title", "Me You and The Gospel")
 
 @section('body')
 
@@ -24,31 +24,24 @@
 
     <div class="stage-featured clearfix" layout="row">
 
-        <div class="card" style="background-image: url(/img/love-in-sand@0,75x.jpg);">
-            @component("components.card", ['title' => "What Is The Gospel?"])
-                Globally restore proactive e-services and cost effective relationships. Seamlessly coordinate collaborative platforms.
-            @endcomponent
-        </div>
-        <div class="card" style="background-image: url(/img/love-in-sand@0,75x.jpg);">
-            @component("components.card", ['title' => 'You Me and the Gospel'])
-                Globally restore proactive e-services and cost effective relationships. Seamlessly coordinate collaborative platforms.
-            @endcomponent
-        </div>
+        @if(count($featured))
+            @foreach($featured as $feature)
+                <div class="card col-md-4" style="background-image: url({{$feature->post_thumbnail}})">
+                    @component("components.card", ['title' => $feature->title])
+                        {{ $feature->excerpt }}
+                    @endcomponent
+                </div>
+            @endforeach
+        @endif
 
     </div>
 
-    <section class="sub-header text-center">
+    <section class="text-left">
 
         <div class="container">
-            <h1>
-                Just add content
-            </h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est error quae nostrum beatae,
-                iusto accusantium repudiandae accusamus veritatis, voluptatum nesciunt dolorem aspernatur saepe a
-                asperiores.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea doloribus similique officiis laudantium
-                ratione praesentium. Voluptatibus, commodi saepe molestias ea iure optio dignissimos. Non, iusto.
-            </p>
+            <div class="row">
+                @include("articles.index")
+            </div>
         </div>
     </section>
 

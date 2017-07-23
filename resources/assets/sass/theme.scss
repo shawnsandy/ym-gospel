@@ -3,12 +3,17 @@
 
 @import "./node_modules/bourbon/app/assets/stylesheets/_bourbon.scss";
 
+body {
+  font-size: 62.5%;
+}
 body, p {
-  font-family: 'Open Sans', sans-serif
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 p {
   font-size: 17px;
+  font-size: 1.7rem;
 }
 
 .stage {
@@ -84,7 +89,17 @@ p {
 
 .oswald {
   font-family: 'Oswald', sans-serif;
-  font-size: 79px;
+  &.h1 {
+    font-size: 79px;
+  }
+  &.h2 {
+    font-size: 54px;
+  }
+
+}
+
+.btn {
+  border-radius: 20px;
 }
 
 footer {
