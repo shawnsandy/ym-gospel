@@ -21,6 +21,7 @@
         </header>
 
     </div>
+
     <div class="stage-featured clearfix" layout="row">
 
         <div class="card" style="background-image: url(/img/love-in-sand@0,75x.jpg);">

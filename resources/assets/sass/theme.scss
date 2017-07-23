@@ -1,18 +1,22 @@
 // Variables
 @import "variables";
 
-@import "node_modules/bourbon/app/assets/stylesheets/_bourbon.scss";
+@import "./node_modules/bourbon/app/assets/stylesheets/_bourbon.scss";
 
 body, p {
   font-family: 'Open Sans', sans-serif
 }
 
+p {
+  font-size: 17px;
+}
+
 .stage {
 
-  height: 60vh;
+  height: 55vh;
 
   .cover {
-    height: 60vh;
+    height: 55vh;
   }
 
   .landing {
@@ -22,7 +26,7 @@ body, p {
 }
 
 .stage-featured {
-  height: 40vh;
+  height: 50vh;
   background-color: #0C0C0C;
   .card {
     height: 100%;
