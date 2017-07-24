@@ -1,0 +1,190 @@
+// Variables
+@import "variables";
+
+@import "./node_modules/bourbon/app/assets/stylesheets/_bourbon.scss";
+
+body {
+  font-size: 62.5%;
+  background-image: url("/img/bg/11.jpg");
+}
+body, p {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+header {
+  background-color: transparent;
+}
+
+p {
+  font-size: 17px;
+  font-size: 1.7rem;
+}
+
+.stage {
+
+  height: 50vh;
+
+  .cover {
+    height: 50vh;
+  }
+
+  .landing {
+    background-color: transparent;
+  }
+
+}
+
+.article-page .stage {
+  height: 30vh;
+  .cover {
+    height: 30vh;
+  }
+}
+a {
+  font-size: 15px;
+  font-size: 1.5rem;
+}
+
+.stage-featured {
+  height: 50vh;
+  background-color: #0C0C0C;
+  .card {
+    height: 100%;
+    padding: 0;
+    > div {
+      padding: 30px;
+      //background-color: rgba(0, 0, 0, 0.9);
+      //@include linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+      margin: 0;
+      border: none;
+      height: 100%;
+
+    }
+  }
+
+  .layout-row {
+    vertical-align: bottom;
+    text-align: left;
+
+  }
+  margin-bottom: 60px;
+
+}
+
+.card {
+
+  height: 100%;
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .card-cover {
+    display: block;
+    height: 40%;
+  }
+
+  a {
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+    }
+
+  }
+
+  .card-title , .card-description {
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .card-description {
+    font-size: 21px;
+
+  }
+
+}
+
+.oswald {
+  font-family: 'Oswald', sans-serif;
+  &.h1  {
+    font-size: 79px;
+    font-size: 7.9rem;
+
+    a {
+      font-size: 79px;
+      font-size: 7.9rem;
+    }
+  }
+  &.h2 {
+    font-size: 54px;
+  }
+
+}
+
+.btn {
+  border-radius: 20px;
+}
+
+.articles {
+
+  article {
+    height: 700px;
+
+    .description {
+
+      height: 150px;
+    }
+
+    img {
+      height: 315px;
+      overflow: hidden;
+      background-color: #f1f1f1;
+    }
+
+  }
+
+  margin-bottom: 30px;
+
+}
+
+.article-body {
+  p {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+}
+
+.social-icons {
+
+  a {
+    border-radius: 3px;
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    line-height: 48px;
+    color: #1a1a1a;
+    display: inline-block;
+    font-size: 21px;
+    font-size: 2.1rem;
+    margin: 10px 5px;
+    background-color: darkgrey;
+  }
+
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.word {
+  height: 260px;
+  background-color: lightgray;
+  padding: 25px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
