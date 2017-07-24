@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="/assets/aos/dist/aos.css"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,600" rel="stylesheet">
     <link href="/css/pagekit/fonts/social/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     @stack('styles')
 

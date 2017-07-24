@@ -5,10 +5,15 @@
 
 body {
   font-size: 62.5%;
+  background-image: url("/img/bg/11.jpg");
 }
 body, p {
   font-family: 'Open Sans', sans-serif;
 
+}
+
+header {
+  background-color: transparent;
 }
 
 p {
@@ -18,16 +23,27 @@ p {
 
 .stage {
 
-  height: 55vh;
+  height: 50vh;
 
   .cover {
-    height: 55vh;
+    height: 50vh;
   }
 
   .landing {
-    background-color: #FFF;
+    background-color: transparent;
   }
 
+}
+
+.article-page .stage {
+  height: 30vh;
+  .cover {
+    height: 30vh;
+  }
+}
+a {
+  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 .stage-featured {
@@ -39,7 +55,7 @@ p {
     > div {
       padding: 30px;
       //background-color: rgba(0, 0, 0, 0.9);
-      @include linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+      //@include linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
       margin: 0;
       border: none;
       height: 100%;
@@ -52,13 +68,14 @@ p {
     text-align: left;
 
   }
+  margin-bottom: 60px;
 
 }
 
 .card {
 
   height: 100%;
-  color: lightgray;
+  color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -68,7 +85,7 @@ p {
   }
 
   a {
-    color: lightgray;
+    color: #fff;
 
     &:hover {
       color: #fff;
@@ -89,8 +106,14 @@ p {
 
 .oswald {
   font-family: 'Oswald', sans-serif;
-  &.h1 {
+  &.h1  {
     font-size: 79px;
+    font-size: 7.9rem;
+
+    a {
+      font-size: 79px;
+      font-size: 7.9rem;
+    }
   }
   &.h2 {
     font-size: 54px;
@@ -102,6 +125,66 @@ p {
   border-radius: 20px;
 }
 
-footer {
-  background-color: rgba(0, 0, 0, 0.8);
+.articles {
+
+  article {
+    height: 700px;
+
+    .description {
+
+      height: 150px;
+    }
+
+    img {
+      height: 315px;
+      overflow: hidden;
+      background-color: #f1f1f1;
+    }
+
+  }
+
+  margin-bottom: 30px;
+
 }
+
+.article-body {
+  p {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+}
+
+.social-icons {
+
+  a {
+    border-radius: 3px;
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    line-height: 48px;
+    color: #1a1a1a;
+    display: inline-block;
+    font-size: 21px;
+    font-size: 2.1rem;
+    margin: 10px 5px;
+    background-color: darkgrey;
+  }
+
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.word {
+  height: 260px;
+  background-color: lightgray;
+  padding: 25px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+

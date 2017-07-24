@@ -15,7 +15,8 @@ class GospelController extends Controller
      */
     public function index()
     {
-        return view("index");
+        $articles  = [];
+        return view("articles", compact("articles"));
     }
 
     /**
@@ -48,7 +49,7 @@ class GospelController extends Controller
     public function show(Blueline $article)
     {
         $article->load(['categories', 'tags']);
-        return $article;
+        return view("article", compact("article"));
     }
 
     /**

@@ -19,7 +19,7 @@
 
     Route::get('/', function(){
 
-        $articles = Blueline::latestPaginated(20)->where('status', "PUBLISHED");
+        $articles = Blueline::where('status', "PUBLISHED")->latestPaginated(8);
 
         $featured = Blueline::latest(3)->where('status', "PUBLISHED")->where("featured", 1)->get();
 
@@ -39,6 +39,10 @@
 
     Route::group(["prefix" => "extras"], function () {
         Extras::routes();
+    });
+
+    Route::group(["prefix" => "page"], function () {
+        Page::routes();
     });
 
     Auth::routes();
