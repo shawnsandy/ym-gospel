@@ -7,22 +7,27 @@
         <div class="col-md-6 articles">
 
             <article>
-                <p class="h2 oswald text-uppercase" >{{ $article->title }}</p>
+
                 <p>
                     <a class="" href="/articles/{{ $article->id }}">
                         <img class="img-responsive" src="{{ $article->post_thumbnail }}?w=550&h=316&fit=crop-center" alt="cover image">
                     </a>
                 </p>
+
+                <p class="h2 oswald text-uppercase" >{{ $article->title }}</p>
+
                 <p class="text-muted"><small>POSTED {{ $article->created_since }}</small></p>
 
                 <div class="content">
-                    <p class="description">
+                    <div class="description">
+
                         {{ $article->the_excerpt }}
-                    </p>
+                    </div>
                     <p class="text-right">
                         <a class="btn btn-default" href="/articles/{{ $article->id }}">Read Article</a>
                     </p>
                 </div>
+
             </article>
 
         </div>
