@@ -36,10 +36,18 @@ p {
 }
 
 .article-page .stage {
-  height: 30vh;
+
+  height: 45vh;
+  background-color: #fff;
+
   .cover {
-    height: 30vh;
+    height: inherit !important;
   }
+
+  header {
+  height:  100%;
+  }
+
 }
 a {
   font-size: 15px;
@@ -154,6 +162,21 @@ a {
   }
 }
 
+main {
+  article {
+    background-color: #fff;
+    margin: 40px;
+  }
+
+  .article-body {
+    padding: 25px;
+    min-height: 50vh;
+  }
+
+  margin: 40px 0;
+
+}
+
 .social-icons {
 
   a {
@@ -180,8 +203,9 @@ a {
 
 .word {
   height: 260px;
-  background-color: lightgray;
+  background-color: transparent;
   padding: 25px;
+  border-radius: 8px;
 }
 
 footer {

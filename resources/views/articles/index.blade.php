@@ -8,8 +8,12 @@
 
             <article>
                 <p class="h2 oswald text-uppercase" >{{ $article->title }}</p>
-                <p><img class="img-responsive" src="{{ $article->post_thumbnail }}?w=550&h=316&fit=crop-center" alt="cover image"></p>
-                <p class=""><small>{{ $article->created_since }}</small></p>
+                <p>
+                    <a class="" href="/articles/{{ $article->id }}">
+                        <img class="img-responsive" src="{{ $article->post_thumbnail }}?w=550&h=316&fit=crop-center" alt="cover image">
+                    </a>
+                </p>
+                <p class="text-muted"><small>POSTED {{ $article->created_since }}</small></p>
 
                 <div class="content">
                     <p class="description">

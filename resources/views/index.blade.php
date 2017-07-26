@@ -23,7 +23,7 @@
         @if(count($featured))
             @foreach($featured as $feature)
                 <div class="card col-md-4" style="background-image: url({{$feature->post_thumbnail}})">
-                    @component("components.card", ['title' => $feature->title])
+                    @component("components.card", ['title' => $feature->title, "url" => "/articles/".$feature->id ])
                         {{ $feature->excerpt }}
                     @endcomponent
                 </div>

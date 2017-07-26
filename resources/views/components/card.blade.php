@@ -1,7 +1,7 @@
 <div layout="row bottom-center">
     <div class="">
             <div class="card-title text-uppercase h1 oswald text-left">
-                <a href="">{{ $title or "The Post Title" }}</a>
+                <a href="{{ $url }}">{{ $title or "The Post Title" }}</a>
             </div>
 
             <p class="card-description text-left lead">
