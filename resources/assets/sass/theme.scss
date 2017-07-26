@@ -64,8 +64,8 @@ a {
     background-position: center center;
     > div {
       padding: 30px;
-      //background-color: rgba(0, 0, 0, 0.9);
-      @include linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
+      background-color: rgba(0, 0, 0, 0.4);
+      @include linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
       margin: 0;
       border: none;
       height: 100%;
@@ -105,11 +105,12 @@ a {
 
   .card-title , .card-description {
     text-shadow: 1px 1px 2px black;
+    line-height: 1;
   }
 
   .card-description {
     font-size: 21px;
-    height: 150px;
+    height: 350px;
     overflow: hidden;
   }
 
@@ -122,8 +123,9 @@ a {
     font-size: 7.9rem;
 
     a {
-      font-size: 68px;
-      font-size: 6.8rem;
+      font-size: 60px;
+      font-size: 6.0rem;
+      line-height: 1.0;
     }
   }
   &.h2 {
@@ -142,8 +144,7 @@ a {
     height: 700px;
 
     .description {
-
-      height: 150px;
+      height: 260px;
     }
 
     img {
