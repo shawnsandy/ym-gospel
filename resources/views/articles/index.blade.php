@@ -8,11 +8,11 @@
 
             <article>
 
-                <p>
+
                     <a class="" href="/articles/{{ $article->id }}">
                         <img class="img-responsive" src="{{ $article->post_thumbnail }}?w=550&h=316&fit=crop-center" alt="cover image">
                     </a>
-                </p>
+
 
                 <p class="h2 oswald text-uppercase" >{{ $article->title }}</p>
 
@@ -21,7 +21,8 @@
                 <div class="content">
                     <div class="description">
 
-                        {{ $article->the_excerpt }}
+                       <p> {{ $article->the_excerpt }}</p>
+
                     </div>
                     <p class="text-right">
                         <a class="btn btn-default" href="/articles/{{ $article->id }}">Read Article</a>
