@@ -1,6 +1,6 @@
 @extends($pageTheme.'page-layouts.default')
 
-@section("title", "Me You and The Gospel")
+@section("title", "You Me and The Gospel")
 
 @section('body')
 
