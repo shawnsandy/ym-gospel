@@ -65,7 +65,7 @@ a {
     > div {
       padding: 30px;
       //background-color: rgba(0, 0, 0, 0.9);
-      @include linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
+      @include linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
       margin: 0;
       border: none;
       height: 100%;
@@ -109,7 +109,8 @@ a {
 
   .card-description {
     font-size: 21px;
-
+    height: 150px;
+    overflow: hidden;
   }
 
 }
