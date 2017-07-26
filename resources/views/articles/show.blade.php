@@ -17,7 +17,7 @@
             <div class="article-body">
                 <h1 class="oswald h1 text-uppercase">{{ $article->title }}</h1>
                 <p>
-                    {{ $article->created_since }}
+                   Posted - {{ $article->created_since }}
                 </p>
 
                 {!! $article->body !!}
