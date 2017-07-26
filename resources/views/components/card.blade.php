@@ -5,7 +5,7 @@
             </div>
 
             <p class="card-description text-left lead">
-                {{ $slot }}
+                {{ Extras::str_limit($slot, 40) }}
             </p>
     </div>
 </div>
