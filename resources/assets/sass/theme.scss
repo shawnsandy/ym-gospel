@@ -12,6 +12,11 @@ body, p {
 
 }
 
+p, div, li, aside {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
 header {
   background-color: transparent;
 }
@@ -144,7 +149,7 @@ a {
     height: 700px;
 
     .description {
-      height: 140px;
+      height: 180px;
     }
 
     img {
