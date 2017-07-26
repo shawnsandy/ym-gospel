@@ -15,7 +15,7 @@
 
             <p><img src="{{ $article->post_thumbnail }}?w=1200&h=640&fit=crop-center" class="img-responsive"></p>
             <div class="article-body">
-                <h1 class="oswald h1">{{ $article->title }}</h1>
+                <h1 class="oswald h1 text-uppercase">{{ $article->title }}</h1>
                 <p>
                     {{ $article->created_since }}
                 </p>
