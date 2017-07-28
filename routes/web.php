@@ -17,7 +17,7 @@
 
     use ShawnSandy\Bluelines\App\Blueline;
 
-    Route::get('/', function(){
+    Route::get('/', function () {
 
         $articles = Blueline::where('status', "PUBLISHED")->latestPaginated(8);
 
@@ -30,13 +30,10 @@
     Route::resource("/articles", "GospelController");
 
 
-    Route::group([ 'middleware' => ["auth"], function() {
+    Route::group(['prefix' => 'admin', ['middleware' => 'auth']], function () {
+        Dash::routes();
+    });
 
-        Route::group(['prefix' => 'admin'], function () {
-            Dash::routes();
-        });
-
-    }]);
 
     Auth::routes();
 
