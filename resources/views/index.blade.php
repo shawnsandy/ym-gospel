@@ -3,7 +3,7 @@
 @section("title", "You Me and The Gospel")
 
 @section('body')
-
+ @include("partials.site-nav")
     <div class="cover-fold stage">
         <header class="landing" data-aos="fade-up">
             <section class="cover">

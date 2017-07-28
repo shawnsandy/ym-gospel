@@ -17,6 +17,10 @@ p, div, li, aside {
   font-size: 1.4rem;
 }
 
+.site-nav {
+  background-image: url("/img/bg/11.jpg");
+}
+
 header {
   background-color: transparent;
 }
@@ -43,7 +47,7 @@ p {
 .article-page .stage {
 
   height: 45vh;
-  background-color: #fff;
+  background-color: transparent;
 
   .cover {
     height: inherit !important;
