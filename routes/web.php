@@ -29,9 +29,16 @@
 
     Route::resource("/articles", "GospelController");
 
-    Route::group(['prefix' => 'admin'], function () {
-        Dash::routes();
-    });
+
+    Route::group([ 'middleware' => ["auth"], function() {
+
+        Route::group(['prefix' => 'admin'], function () {
+            Dash::routes();
+        });
+
+    }]);
+
+    Auth::routes();
 
     Route::group(["prefix" => "bluelines"], function () {
         Blue::routes();
@@ -44,8 +51,6 @@
     Route::group(["prefix" => "page"], function () {
         Page::routes();
     });
-
-    Auth::routes();
 
     Route::get('/home', 'HomeController@index')->name('home');
 
