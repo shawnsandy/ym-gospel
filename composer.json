@@ -12,6 +12,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/shawnsandy/bluelines"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/shawnsandy/dash-auth"
         }
     ],
     "require": {
@@ -20,11 +24,13 @@
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
         "mews/purifier": "^2.0",
-        "shawnsandy/dash": "dev-master",
-        "shawnsandy/dashelements": "dev-master",
         "shawnsandy/bluelines": "dev-master",
+        "shawnsandy/dash": "dev-master",
+        "shawnsandy/dashauth": "dev-master",
+        "shawnsandy/dashelements": "dev-master",
         "shawnsandy/extras": "dev-master",
-        "shawnsandy/pagekit": "dev-master"
+        "shawnsandy/pagekit": "dev-master",
+        "silber/bouncer": "v1.0.0-beta.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
