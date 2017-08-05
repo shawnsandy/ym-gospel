@@ -32,6 +32,7 @@
 
     Route::group(['prefix' => 'admin', ['middleware' => 'auth']], function () {
         Dash::routes();
+        Dashauth::routes();
     });
 
 

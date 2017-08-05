@@ -184,6 +184,7 @@ return [
         ShawnSandy\DashElements\DashElementsServicesProvider::class,
         ShawnSandy\PageKit\PageKitServiceProvider::class,
         ShawnSandy\Bluelines\BluelinesServicesProvider::class,
+        ShawnSandy\DashAuth\DashAuthServicesProvider::class,
         Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
 
     ],
@@ -244,6 +245,7 @@ return [
         "DashForms" => ShawnSandy\Dash\Builder\GenerateFormFieldsFacade::class,
         "DashElements" => ShawnSandy\DashElements\DashElementsFacade::class,
         "Blue" => ShawnSandy\Bluelines\BluelinesFacade::class,
+        "Dashauth" => ShawnSandy\DashAuth\DashAuthFacade::class,
 
     ],
 
