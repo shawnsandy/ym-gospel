@@ -21,7 +21,7 @@
 
         $articles = Blueline::where('status', "PUBLISHED")->latestPaginated(8);
 
-        $featured = Blueline::latest(3)->where('status', "PUBLISHED")->where("featured", 1)->get();
+        $featured = Blueline::latest()->inRandomOrder()->take(3)->where('status', "PUBLISHED")->where("featured", 1)->get();
 
         return view('index', compact("articles", "featured"));
 
