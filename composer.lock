@@ -3105,12 +3105,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/dash.git",
-                "reference": "dc34551e97c4b10ae1ba69e95f0bca06da62752b"
+                "reference": "ad3156b2e38d513116efc140cbb933bf83ae05f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/dash/zipball/dc34551e97c4b10ae1ba69e95f0bca06da62752b",
-                "reference": "dc34551e97c4b10ae1ba69e95f0bca06da62752b",
+                "url": "https://api.github.com/repos/shawnsandy/dash/zipball/ad3156b2e38d513116efc140cbb933bf83ae05f1",
+                "reference": "ad3156b2e38d513116efc140cbb933bf83ae05f1",
                 "shasum": ""
             },
             "require": {
@@ -3155,7 +3155,7 @@
                 "dash",
                 "shawnsandy"
             ],
-            "time": "2017-08-05 02:51:59"
+            "time": "2017-08-05 23:49:38"
         },
         {
             "name": "shawnsandy/dashauth",
@@ -3240,12 +3240,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/dash-elements.git",
-                "reference": "0248c187f2b3aad89073a7160ef49eedadf3807d"
+                "reference": "b9e51f5c97641d8b5f7302924b3673eeab32e812"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/dash-elements/zipball/0248c187f2b3aad89073a7160ef49eedadf3807d",
-                "reference": "0248c187f2b3aad89073a7160ef49eedadf3807d",
+                "url": "https://api.github.com/repos/shawnsandy/dash-elements/zipball/b9e51f5c97641d8b5f7302924b3673eeab32e812",
+                "reference": "b9e51f5c97641d8b5f7302924b3673eeab32e812",
                 "shasum": ""
             },
             "require": {
@@ -3307,7 +3307,7 @@
                 "source": "https://github.com/shawnsandy/dash-elements/tree/master",
                 "issues": "https://github.com/shawnsandy/dash-elements/issues"
             },
-            "time": "2017-07-29 03:51:21"
+            "time": "2017-08-05 15:37:09"
         },
         {
             "name": "shawnsandy/extras",
@@ -3315,12 +3315,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/extras.git",
-                "reference": "41ce377aa241c5eadf9eb294e3473d56cbbf14c3"
+                "reference": "78a024bdddaa4c13813601ca106774655f8614ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/extras/zipball/41ce377aa241c5eadf9eb294e3473d56cbbf14c3",
-                "reference": "41ce377aa241c5eadf9eb294e3473d56cbbf14c3",
+                "url": "https://api.github.com/repos/shawnsandy/extras/zipball/78a024bdddaa4c13813601ca106774655f8614ab",
+                "reference": "78a024bdddaa4c13813601ca106774655f8614ab",
                 "shasum": ""
             },
             "require": {
@@ -3382,7 +3382,7 @@
                 "Extras",
                 "shawnsandy"
             ],
-            "time": "2017-08-01 18:05:11"
+            "time": "2017-08-06 00:27:23"
         },
         {
             "name": "shawnsandy/pagekit",
