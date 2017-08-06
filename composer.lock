@@ -3105,12 +3105,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/dash.git",
-                "reference": "ad3156b2e38d513116efc140cbb933bf83ae05f1"
+                "reference": "24e332ad65c88314ec7ddaf7b15b310167f1b9c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/dash/zipball/ad3156b2e38d513116efc140cbb933bf83ae05f1",
-                "reference": "ad3156b2e38d513116efc140cbb933bf83ae05f1",
+                "url": "https://api.github.com/repos/shawnsandy/dash/zipball/24e332ad65c88314ec7ddaf7b15b310167f1b9c4",
+                "reference": "24e332ad65c88314ec7ddaf7b15b310167f1b9c4",
                 "shasum": ""
             },
             "require": {
@@ -3155,7 +3155,7 @@
                 "dash",
                 "shawnsandy"
             ],
-            "time": "2017-08-05 23:49:38"
+            "time": "2017-08-06 01:03:59"
         },
         {
             "name": "shawnsandy/dashauth",
