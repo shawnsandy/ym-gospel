@@ -3124,12 +3124,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/dash.git",
-                "reference": "88b2d6b19ea2c84d6ff006b4dbe9e765b4f64604"
+                "reference": "c50da07d1dd271687440ca71b9e7452b2544494e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/dash/zipball/88b2d6b19ea2c84d6ff006b4dbe9e765b4f64604",
-                "reference": "88b2d6b19ea2c84d6ff006b4dbe9e765b4f64604",
+                "url": "https://api.github.com/repos/shawnsandy/dash/zipball/c50da07d1dd271687440ca71b9e7452b2544494e",
+                "reference": "c50da07d1dd271687440ca71b9e7452b2544494e",
                 "shasum": ""
             },
             "require": {
@@ -3174,7 +3174,7 @@
                 "dash",
                 "shawnsandy"
             ],
-            "time": "2017-08-18 02:48:47"
+            "time": "2017-08-20 10:45:56"
         },
         {
             "name": "shawnsandy/dashauth",
@@ -3334,12 +3334,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/extras.git",
-                "reference": "46bcaa65b4c230fdd79b5b4a96f0f15454ec23c7"
+                "reference": "624bb50e27a2fc77c364a98773bda7cc5a6b4282"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/extras/zipball/46bcaa65b4c230fdd79b5b4a96f0f15454ec23c7",
-                "reference": "46bcaa65b4c230fdd79b5b4a96f0f15454ec23c7",
+                "url": "https://api.github.com/repos/shawnsandy/extras/zipball/624bb50e27a2fc77c364a98773bda7cc5a6b4282",
+                "reference": "624bb50e27a2fc77c364a98773bda7cc5a6b4282",
                 "shasum": ""
             },
             "require": {
@@ -3401,7 +3401,7 @@
                 "Extras",
                 "shawnsandy"
             ],
-            "time": "2017-08-19 00:26:20"
+            "time": "2017-08-20 02:02:43"
         },
         {
             "name": "shawnsandy/pagekit",
@@ -5468,16 +5468,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "ecb0b2cdaa0add708fe6f329ef65ae0c5225130b"
+                "reference": "9a02332089ac48e704c70f6cefed30c224e3c0b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/ecb0b2cdaa0add708fe6f329ef65ae0c5225130b",
-                "reference": "ecb0b2cdaa0add708fe6f329ef65ae0c5225130b",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/9a02332089ac48e704c70f6cefed30c224e3c0b0",
+                "reference": "9a02332089ac48e704c70f6cefed30c224e3c0b0",
                 "shasum": ""
             },
             "require": {
@@ -5513,7 +5513,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-08-03 14:17:41"
+            "time": "2017-08-20 05:47:52"
         },
         {
             "name": "phpunit/phpunit",
