@@ -3049,12 +3049,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/bluelines.git",
-                "reference": "0853ce428d4de5ef9afe1d233a8d48639f47fd60"
+                "reference": "d951cfab21507c3c395cc3033b651f7ae8ad7c9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/bluelines/zipball/0853ce428d4de5ef9afe1d233a8d48639f47fd60",
-                "reference": "0853ce428d4de5ef9afe1d233a8d48639f47fd60",
+                "url": "https://api.github.com/repos/shawnsandy/bluelines/zipball/d951cfab21507c3c395cc3033b651f7ae8ad7c9f",
+                "reference": "d951cfab21507c3c395cc3033b651f7ae8ad7c9f",
                 "shasum": ""
             },
             "require": {
@@ -3116,7 +3116,7 @@
                 "source": "https://github.com/shawnsandy/bluelines/tree/master",
                 "issues": "https://github.com/shawnsandy/bluelines/issues"
             },
-            "time": "2017-08-17 21:39:10"
+            "time": "2017-08-21 22:19:50"
         },
         {
             "name": "shawnsandy/dash",
@@ -3124,12 +3124,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/dash.git",
-                "reference": "c50da07d1dd271687440ca71b9e7452b2544494e"
+                "reference": "ee148626fbb4f8fa1f24747e0f5cbe929c26432b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/dash/zipball/c50da07d1dd271687440ca71b9e7452b2544494e",
-                "reference": "c50da07d1dd271687440ca71b9e7452b2544494e",
+                "url": "https://api.github.com/repos/shawnsandy/dash/zipball/ee148626fbb4f8fa1f24747e0f5cbe929c26432b",
+                "reference": "ee148626fbb4f8fa1f24747e0f5cbe929c26432b",
                 "shasum": ""
             },
             "require": {
@@ -3174,7 +3174,7 @@
                 "dash",
                 "shawnsandy"
             ],
-            "time": "2017-08-20 10:45:56"
+            "time": "2017-08-21 22:11:18"
         },
         {
             "name": "shawnsandy/dashauth",
@@ -3182,12 +3182,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:shawnsandy/dash-auth.git",
-                "reference": "ca182648c6f34b299ce33929c33151c7c4e49d36"
+                "reference": "5342828b12b2cf16f4190bfc2f90b9e02982dadb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/dash-auth/zipball/ca182648c6f34b299ce33929c33151c7c4e49d36",
-                "reference": "ca182648c6f34b299ce33929c33151c7c4e49d36",
+                "url": "https://api.github.com/repos/shawnsandy/dash-auth/zipball/5342828b12b2cf16f4190bfc2f90b9e02982dadb",
+                "reference": "5342828b12b2cf16f4190bfc2f90b9e02982dadb",
                 "shasum": ""
             },
             "require": {
@@ -3251,7 +3251,7 @@
                 "source": "https://github.com/shawnsandy/dash-auth/tree/master",
                 "issues": "https://github.com/shawnsandy/dash-auth/issues"
             },
-            "time": "2017-08-18 02:16:41"
+            "time": "2017-08-21 22:09:27"
         },
         {
             "name": "shawnsandy/dashelements",
@@ -3334,12 +3334,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/extras.git",
-                "reference": "624bb50e27a2fc77c364a98773bda7cc5a6b4282"
+                "reference": "c4e76efdac3a899e022ba0bb20302e38a47ecab8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/extras/zipball/624bb50e27a2fc77c364a98773bda7cc5a6b4282",
-                "reference": "624bb50e27a2fc77c364a98773bda7cc5a6b4282",
+                "url": "https://api.github.com/repos/shawnsandy/extras/zipball/c4e76efdac3a899e022ba0bb20302e38a47ecab8",
+                "reference": "c4e76efdac3a899e022ba0bb20302e38a47ecab8",
                 "shasum": ""
             },
             "require": {
@@ -3401,7 +3401,7 @@
                 "Extras",
                 "shawnsandy"
             ],
-            "time": "2017-08-20 02:02:43"
+            "time": "2017-08-21 22:14:29"
         },
         {
             "name": "shawnsandy/pagekit",
