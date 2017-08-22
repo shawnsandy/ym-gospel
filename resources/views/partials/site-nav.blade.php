@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/"><img height="40px" src="/img/background50.png"></a>
+            <a class="navbar-brand" href="/"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,10 +17,10 @@
                 {{--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>--}}
                 {{--<li><a href="#">Link</a></li>--}}
             </ul>
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-left">
                 {{--<li><a href="#">Link</a></li>--}}
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-chevron-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="/page/about">About</a></li>
                         <li><a href="/page/contact">Contact</a></li>
