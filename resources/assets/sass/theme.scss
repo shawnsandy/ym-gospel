@@ -20,7 +20,7 @@ aside {
 }
 
 .site-nav {
-    background-image: url("/img/bg/11.jpg");
+    // background-image: url("/img/bg/11.jpg");
 }
 
 header {
@@ -202,6 +202,16 @@ main {
     background-color: transparent;
     padding: 25px;
     border-radius: 8px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: transparent;
+    border-color: #337ab7;
 }
 
 footer {
