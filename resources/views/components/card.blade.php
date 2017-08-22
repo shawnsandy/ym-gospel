@@ -6,7 +6,7 @@
                 <a href="{{ $url }}">{{ $title or "The Post Title" }}</a>
             </div>
             <div class="lead">
-                {{ Extras::str_limit($slot, 10) }}
+                {{--  {{ Extras::str_limit($slot, 10) }}  --}}
             </div>
         </div>
     </div>

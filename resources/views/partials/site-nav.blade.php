@@ -20,7 +20,7 @@
             <ul class="nav navbar-nav navbar-left">
                 {{--<li><a href="#">Link</a></li>--}}
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-chevron-down"></i></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-chevron-circle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="/page/about">About</a></li>
                         <li><a href="/page/contact">Contact</a></li>

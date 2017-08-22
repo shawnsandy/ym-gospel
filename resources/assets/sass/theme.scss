@@ -43,7 +43,7 @@ p {
 }
 
 .article-page .stage {
-    height: 45vh;
+    height: 50vh;
     background-color: transparent;
     .cover {
         height: inherit !important;
@@ -59,7 +59,7 @@ a {
 }
 
 .stage-featured {
-    height: 50vh;
+    height: 45vh;
     background-color: #0C0C0C;
     .card {
         height: 100%;
@@ -115,7 +115,7 @@ a {
     }
     .card-description {
         font-size: 21px;
-        height: 250px;
+        height: 200px;
         overflow: hidden;
     }
 }
@@ -126,8 +126,8 @@ a {
         font-size: 79px;
         font-size: 7.9rem;
         a {
-            font-size: 60px;
-            font-size: 6.0rem;
+            font-size: 62px;
+            font-size: 6.2rem;
             line-height: 1.0;
         }
     }

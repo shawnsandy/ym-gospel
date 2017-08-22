@@ -35,7 +35,6 @@
         <div class="word">
             <div class="flex-center">
                 <div class="text-center">
-                    <p class="text-center">(THE WORD)</p>
                     <h1 class="oswald">"By this everyone will know that you are my disciples, if you love one another."</h1>
                 </div>
             </div>
