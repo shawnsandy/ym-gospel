@@ -68,16 +68,16 @@ a {
         background-position: center center;
         >div {
             padding: 30px;
-            background-color: rgba(0, 0, 0, 0.2);
+            background-color: rgba(0, 0, 0, 0.1);
             @include linear-gradient(to bottom,
             rgba(0,
             0,
             0,
-            0.2),
+            0.04),
             rgba(0,
             0,
             0,
-            0.95));
+            0.98));
             margin: 0;
             border: none;
             height: 100%;
@@ -115,7 +115,7 @@ a {
     }
     .card-description {
         font-size: 21px;
-        height: 150px;
+        height: 280px;
         overflow: hidden;
     }
 }
@@ -142,7 +142,7 @@ a {
 
 .articles {
     article {
-        height: 700px;
+        height: 760px;
         .description {
             height: 180px;
         }
@@ -152,7 +152,7 @@ a {
             background-color: #f1f1f1;
         }
     }
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .article-body {
