@@ -3124,12 +3124,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/dash.git",
-                "reference": "ee148626fbb4f8fa1f24747e0f5cbe929c26432b"
+                "reference": "3a6f480cdb8e43cf6eb844cf68e64c658c4e4520"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/dash/zipball/ee148626fbb4f8fa1f24747e0f5cbe929c26432b",
-                "reference": "ee148626fbb4f8fa1f24747e0f5cbe929c26432b",
+                "url": "https://api.github.com/repos/shawnsandy/dash/zipball/3a6f480cdb8e43cf6eb844cf68e64c658c4e4520",
+                "reference": "3a6f480cdb8e43cf6eb844cf68e64c658c4e4520",
                 "shasum": ""
             },
             "require": {
@@ -3174,7 +3174,7 @@
                 "dash",
                 "shawnsandy"
             ],
-            "time": "2017-08-21 22:11:18"
+            "time": "2017-08-22 17:44:31"
         },
         {
             "name": "shawnsandy/dashauth",
@@ -3529,16 +3529,16 @@
         },
         {
             "name": "spatie/laravel-collection-macros",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-collection-macros.git",
-                "reference": "692b8401dfebe56df2191f5ed1a3e107ed9a1ffa"
+                "reference": "ca9c2177a5432d2242b322ae1e402472035fae2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-collection-macros/zipball/692b8401dfebe56df2191f5ed1a3e107ed9a1ffa",
-                "reference": "692b8401dfebe56df2191f5ed1a3e107ed9a1ffa",
+                "url": "https://api.github.com/repos/spatie/laravel-collection-macros/zipball/ca9c2177a5432d2242b322ae1e402472035fae2b",
+                "reference": "ca9c2177a5432d2242b322ae1e402472035fae2b",
                 "shasum": ""
             },
             "require": {
@@ -3550,8 +3550,8 @@
             },
             "require-dev": {
                 "mockery/mockery": "^0.9.5",
-                "orchestra/database": "~3.4.0@dev",
-                "orchestra/testbench": "~3.4.0@dev",
+                "orchestra/database": "~3.4.0",
+                "orchestra/testbench": "~3.4.0",
                 "phpunit/phpunit": "^5.7"
             },
             "type": "library",
@@ -3591,7 +3591,7 @@
                 "laravel-collection-macros",
                 "spatie"
             ],
-            "time": "2017-08-04 14:12:45"
+            "time": "2017-08-22 17:41:39"
         },
         {
             "name": "swiftmailer/swiftmailer",
