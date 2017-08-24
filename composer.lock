@@ -1500,16 +1500,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.4.33",
+            "version": "v5.4.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "e53a81a2bf406f501cdf818ad949f8d6c8dabfc0"
+                "reference": "eaa09c998b315af9fbec04ad29ecfbfd2aa88aeb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/e53a81a2bf406f501cdf818ad949f8d6c8dabfc0",
-                "reference": "e53a81a2bf406f501cdf818ad949f8d6c8dabfc0",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/eaa09c998b315af9fbec04ad29ecfbfd2aa88aeb",
+                "reference": "eaa09c998b315af9fbec04ad29ecfbfd2aa88aeb",
                 "shasum": ""
             },
             "require": {
@@ -1625,7 +1625,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-08-14 20:17:41"
+            "time": "2017-08-23 20:31:28"
         },
         {
             "name": "laravel/socialite",
@@ -3124,12 +3124,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/dash.git",
-                "reference": "3a6f480cdb8e43cf6eb844cf68e64c658c4e4520"
+                "reference": "8988d21b0e52414605be84b472ec58d130f22041"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/dash/zipball/3a6f480cdb8e43cf6eb844cf68e64c658c4e4520",
-                "reference": "3a6f480cdb8e43cf6eb844cf68e64c658c4e4520",
+                "url": "https://api.github.com/repos/shawnsandy/dash/zipball/8988d21b0e52414605be84b472ec58d130f22041",
+                "reference": "8988d21b0e52414605be84b472ec58d130f22041",
                 "shasum": ""
             },
             "require": {
@@ -3174,7 +3174,7 @@
                 "dash",
                 "shawnsandy"
             ],
-            "time": "2017-08-22 17:44:31"
+            "time": "2017-08-23 14:32:01"
         },
         {
             "name": "shawnsandy/dashauth",
@@ -3182,12 +3182,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:shawnsandy/dash-auth.git",
-                "reference": "5342828b12b2cf16f4190bfc2f90b9e02982dadb"
+                "reference": "2d65e75d4ffd2345287e619cab9c82cb9fe4b61c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/dash-auth/zipball/5342828b12b2cf16f4190bfc2f90b9e02982dadb",
-                "reference": "5342828b12b2cf16f4190bfc2f90b9e02982dadb",
+                "url": "https://api.github.com/repos/shawnsandy/dash-auth/zipball/2d65e75d4ffd2345287e619cab9c82cb9fe4b61c",
+                "reference": "2d65e75d4ffd2345287e619cab9c82cb9fe4b61c",
                 "shasum": ""
             },
             "require": {
@@ -3251,7 +3251,7 @@
                 "source": "https://github.com/shawnsandy/dash-auth/tree/master",
                 "issues": "https://github.com/shawnsandy/dash-auth/issues"
             },
-            "time": "2017-08-21 22:09:27"
+            "time": "2017-08-23 14:06:31"
         },
         {
             "name": "shawnsandy/dashelements",
